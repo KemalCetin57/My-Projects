@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+.nav-boyut {
+    height: 8vh;
+}
+.container,.row{
+    height: calc(100vh - 8vh);
+}
+.container .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar.sabit {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+  }
+
+
